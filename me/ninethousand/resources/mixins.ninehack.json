@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.ninethousand.ninehack.mixin",
+  "refmap": "refmap.ninehack.json",
+  "mixins": [
+    "accessors.game.IMinecraft",
+    "mixins.game.MixinMinecraft",
+
+    "accessors.util.ITimer",
+
+    "accessors.game.IEntity",
+    "mixins.game.MixinEntity",
+
+    "mixins.game.MixinRenderEnderCrystal",
+
+    "mixins.game.MixinRenderLivingBase",
+
+    "accessors.game.IBlock",
+    "mixins.game.MixinBlock",
+
+    "mixins.game.MixinNetworkManager",
+
+    "accessors.game.IRenderManager",
+    "mixins.game.MixinRenderManager",
+
+    "mixins.game.MixinGuiNewChat",
+
+    "mixins.game.MixinFontRenderer"
+  ]
+}

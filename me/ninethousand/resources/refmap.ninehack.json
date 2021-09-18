@@ -1,0 +1,78 @@
+{
+  "mappings": {
+    "me/ninethousand/ninehack/mixin/accessors/util/ITimer": {
+      "tickLength": "field_194149_e:F"
+    },
+    "me/ninethousand/ninehack/mixin/mixins/game/MixinFontRenderer": {
+      "drawString(Ljava/lang/String;FFIZ)I": "Lnet/minecraft/client/gui/FontRenderer;func_175065_a(Ljava/lang/String;FFIZ)I"
+    },
+    "me/ninethousand/ninehack/mixin/accessors/game/IBlock": {
+      "material": "field_149764_J:Lnet/minecraft/block/material/Material;"
+    },
+    "me/ninethousand/ninehack/mixin/accessors/game/IRenderManager": {
+      "renderPosX": "field_78725_b:D",
+      "renderPosY": "field_78726_c:D",
+      "renderPosZ": "field_78723_d:D"
+    },
+    "me/ninethousand/ninehack/mixin/accessors/game/IMinecraft": {
+      "rightClickDelayTimer": "field_71467_ac:I",
+      "timer": "field_71428_T:Lnet/minecraft/util/Timer;",
+      "integratedServerIsRunning": "field_71455_al:Z"
+    },
+    "me/ninethousand/ninehack/mixin/accessors/game/IEntity": {
+      "isInWeb": "field_70134_J:Z"
+    },
+    "me/ninethousand/ninehack/mixin/mixins/game/MixinMinecraft": {
+      "runTick()V": "Lnet/minecraft/client/Minecraft;func_71407_l()V",
+      "displayGuiScreen": "Lnet/minecraft/client/Minecraft;func_147108_a(Lnet/minecraft/client/gui/GuiScreen;)V"
+    },
+    "me/ninethousand/ninehack/mixin/mixins/game/MixinGuiNewChat": {
+      "drawChat": "Lnet/minecraft/client/gui/GuiNewChat;func_146230_a(I)V",
+      "Lnet/minecraft/client/gui/GuiNewChat;drawRect(IIIII)V": "Lnet/minecraft/client/gui/GuiNewChat;func_73734_a(IIIII)V",
+      "Lnet/minecraft/client/gui/FontRenderer;drawStringWithShadow(Ljava/lang/String;FFI)I": "Lnet/minecraft/client/gui/FontRenderer;func_175063_a(Ljava/lang/String;FFI)I"
+    },
+    "me/ninethousand/ninehack/mixin/mixins/game/MixinNetworkManager": {
+      "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+      "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "me/ninethousand/ninehack/mixin/accessors/util/ITimer": {
+        "tickLength": "field_194149_e:F"
+      },
+      "me/ninethousand/ninehack/mixin/mixins/game/MixinFontRenderer": {
+        "drawString(Ljava/lang/String;FFIZ)I": "Lnet/minecraft/client/gui/FontRenderer;func_175065_a(Ljava/lang/String;FFIZ)I"
+      },
+      "me/ninethousand/ninehack/mixin/accessors/game/IBlock": {
+        "material": "field_149764_J:Lnet/minecraft/block/material/Material;"
+      },
+      "me/ninethousand/ninehack/mixin/accessors/game/IRenderManager": {
+        "renderPosX": "field_78725_b:D",
+        "renderPosY": "field_78726_c:D",
+        "renderPosZ": "field_78723_d:D"
+      },
+      "me/ninethousand/ninehack/mixin/accessors/game/IMinecraft": {
+        "rightClickDelayTimer": "field_71467_ac:I",
+        "timer": "field_71428_T:Lnet/minecraft/util/Timer;",
+        "integratedServerIsRunning": "field_71455_al:Z"
+      },
+      "me/ninethousand/ninehack/mixin/accessors/game/IEntity": {
+        "isInWeb": "field_70134_J:Z"
+      },
+      "me/ninethousand/ninehack/mixin/mixins/game/MixinMinecraft": {
+        "runTick()V": "Lnet/minecraft/client/Minecraft;func_71407_l()V",
+        "displayGuiScreen": "Lnet/minecraft/client/Minecraft;func_147108_a(Lnet/minecraft/client/gui/GuiScreen;)V"
+      },
+      "me/ninethousand/ninehack/mixin/mixins/game/MixinGuiNewChat": {
+        "drawChat": "Lnet/minecraft/client/gui/GuiNewChat;func_146230_a(I)V",
+        "Lnet/minecraft/client/gui/GuiNewChat;drawRect(IIIII)V": "Lnet/minecraft/client/gui/GuiNewChat;func_73734_a(IIIII)V",
+        "Lnet/minecraft/client/gui/FontRenderer;drawStringWithShadow(Ljava/lang/String;FFI)I": "Lnet/minecraft/client/gui/FontRenderer;func_175063_a(Ljava/lang/String;FFI)I"
+      },
+      "me/ninethousand/ninehack/mixin/mixins/game/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+        "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      }
+    }
+  }
+}
